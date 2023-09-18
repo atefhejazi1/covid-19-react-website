@@ -1,0 +1,39 @@
+.sec{
+    padding: 50px;
+}
+.h3{
+    color: #555555;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.h1_1{
+    color: #484848;
+    font-weight: 600;
+}
+.h1_2{
+    color: #484848;
+    font-weight: 600;
+}
+.h1_3{
+    color: #64CF82;
+    font-weight: 600;
+}
+.h1_4{
+    color: #FF0000;
+    font-weight: 600;
+}
+.p{
+    color: #777777;
+    font-weight: 500;
+    font-size: 18px;
+}
+.ind{
+    margin-top: 20px;
+    color: #777777;
+    font-weight: 400;
+    font-size: 20px;
+}
+.indimg{
+    margin-right: 10px;
+}

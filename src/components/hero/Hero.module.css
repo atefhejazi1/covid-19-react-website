@@ -1,0 +1,119 @@
+.sec {
+    padding: 50px;
+    position: relative;
+}
+
+.text {
+    width: 50%;
+    padding-top: 90px;
+}
+
+.image {
+    width: 50%;
+}
+
+.h3 {
+    color: #FF0000;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.h1 {
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.p {
+    color: rgba(51, 51, 51, 0.65);
+    font-size: 18px;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.button {
+    color: #FFFFFF;
+    background-color: #44B564;
+    border-radius: 50px;
+    padding: 10px 40px;
+}
+
+.vairos {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    width: 8%;
+}
+
+@media (max-width: 1399.98px) {
+    .h3 {
+        margin-left: 50px;
+    }
+
+    .h1 {
+        margin-left: 50px;
+    }
+
+    .p {
+        margin-left: 50px;
+    }
+
+    .button {
+        margin-left: 50px;
+    }
+
+    .vairos {
+        width: 7%;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .h3{
+        font-size: 16px;
+    }
+    .p {
+        font-size: 16px;
+        width: 80%;
+    }
+    .img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .h1{
+        font-size: 30px;
+    }
+    .p{
+        font-size: 12px;
+        width: 90%;
+    }
+    .button{
+        font-size: 14px;
+        padding: 8px 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .h3{
+        font-size: 18px;
+    }
+    .h1{
+        font-size: 35px;
+    }
+    .p{
+        font-size: 18px;
+    }
+    .vairos{
+        width: 12%;
+        top: 150px;
+    }
+    .button{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .p{
+        font-size: 16px;
+    }
+}

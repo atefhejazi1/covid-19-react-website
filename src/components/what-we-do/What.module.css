@@ -1,0 +1,161 @@
+.sec {
+    padding: 50px;
+    position: relative;
+}
+
+
+
+.image {
+    width: 50%;
+}
+
+.h1 {
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.line {
+    margin-bottom: 30px;
+}
+
+.p {
+    color: #555555;
+    font-size: 18px;
+    width: 70%;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.button {
+    color: #444444;
+    font-weight: 500;
+}
+
+.ellipse{
+    position: absolute;
+    left: 50%;
+    top: 84.5%;
+}
+.vairos {
+    position: absolute;
+    right: 0;
+    top: -50px;
+    width: 8%;
+}
+.p2{
+    display: flex;
+    align-items: center;
+    color: #555555;
+    font-weight: 500;
+}
+.vairus{
+    width: 5%;
+    margin-right: 20px;
+}
+@media (max-width: 1399.98px) {
+    .sec{
+        padding-top: 100px;
+    }
+    .vairos{
+        top: 0;
+    }
+    .h1{
+        font-size: 40px;
+    }
+    .p{
+        font-size: 16px;
+    }
+    .img{
+        width: 95%;
+    }
+    .ellipse{
+        top: 85.5%;
+    }
+}
+@media (max-width: 1199.98px) {
+    .h1{
+        font-size: 30px;
+    }
+    .line{
+        width: 30%;
+    }
+    .p{
+        font-size: 13px;
+    }
+    .p2{
+        font-size: 15px;
+    }
+    .ellipse{
+        top: 84.5%;
+    }
+}
+@media (max-width: 991.98px) {
+    .h1{
+        font-size: 25px;
+    }
+    .line{
+        margin-bottom: 20pxg;
+    }
+    .p{
+        width: 90%;
+        font-size: 12px;
+    }
+    .p2{
+        font-size: 14px;
+    }
+    .button{
+        font-size: 16px;
+    }
+    .ellipse{
+        width: 5%;
+    }
+    .img{
+        margin-top: 80px;
+        width: 110%;
+        margin-left: -30px;
+    }
+}
+@media (max-width: 767.98px) {
+    .vairos{
+        width: 12%;
+    }
+    .img{
+        margin-bottom: 50px;
+    }
+    .h1{
+        font-size: 40px;
+    }
+    .line{
+        width: 30%;
+    }
+    .p{
+        font-size: 18px;
+    }
+    .p2{
+        font-size: 18px;
+    }
+    .button{
+        font-size: 18px;
+    }
+    .ellipse{
+        width: 8%;
+        left: 45px;
+        top: 92.5%;
+    }
+}
+@media (max-width: 575.98px) {
+    .h1{
+        font-size: 35px;
+    }
+    .p{
+        font-size: 15px;
+    }
+    .p2{
+        font-size: 15px;
+    }
+    .ellipse{
+        left: 50px;
+        top: 92%;
+    }
+}
